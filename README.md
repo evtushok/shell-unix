@@ -58,13 +58,12 @@ git clone https://github.com/evtushok/shell-unix.git
 cd shell-unix
 make
 ```
+### Компиляция
+```bash
+gcc shell.c -o shell
+```
 
 ### Запуск
 ```bash
 ./shell
-```
-
-### Очистка
-```bash
-make clean
 ```
